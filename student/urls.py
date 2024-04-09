@@ -4,7 +4,7 @@ from student import views
 
 
 urlpatterns = [
-    path('hello/', views.home, name="hello")
+    path('', views.home, name="hello")
 
 
 ]
